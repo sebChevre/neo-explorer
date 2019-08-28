@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#mainContainer {
+  padding:20px;
+}
+
+.block {
+  width:100%;
+}
+
+.hidden { display:none; }
+
+.block_hash_lbl{
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.block_hash_value{
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+  float: right;
+}
+
+.from-lbl{
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.from-value{
+  font-size: small;
+  font-style: italic;
+}
+
+.to-lbl{
+  font-size: small;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.to-value{
+  font-size: small;
+  font-style: italic;
+}
+
+.blocknumber {
+  font-family: Arial;
+  font-style: italic;
+  font-weight: bold;
+}
+
+#montant {
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#portefeuilles_list{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.portefeuile-desc{
+  float: right;
+  font-size: small;
+  font-style: italic;
+}
+
+.portefeuille-list-adress{
+  font-weight: bold;
+}
+
+.small-font{
+  font-size:10px;
+}
+
+.tuile{
+  box-model: border-box;
+  border: 3px solid transparent;
+  background-clip:padding-box;
+}
+
+#transaction-loader{
+  width:200px;
+}
+
+.search-bar{
+  margin-bottom: auto !important;
+}
+
+.first-col{
+  width: 16.66%;
+}
+
+.block-header{
+  color:white;
+}
+
+
+.block-lines{
+  font-size:14px;
+}
+
+.block-libelle{
+  margin-right: 5px;
+}
+
+.collapse-title{
+  text-decoration: none !important;
+}
+
+#accordion{
+  margin-top: 20px;
+}
+
+.transaction-in-col{
+  width: 48%
+}
+.transaction-out-col{
+  width: 48%
+}
+
+.tx-details{
+  width:100%;
+}
+
+.transaction-fr-desc{
+  color: #95999c;
+  font-style: italic;
+}
